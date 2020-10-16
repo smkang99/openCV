@@ -68,7 +68,7 @@ public class CameraActivity extends Activity {
                 }
                 else {
                     mView.setFrontFacing(false);
-                    mView.setCameraIndex(CameraBridgeViewBase.CAMERA_ID_BACK);
+                    mView.setCameraIndex(CameraBridgeViewBase.CAMERA_ID_BACK_1);
                 }
             }
         });

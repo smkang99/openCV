@@ -1,0 +1,3 @@
+/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/release/mips/CMakeFiles/edit_cache.dir
+/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/release/mips/CMakeFiles/native-lib.dir

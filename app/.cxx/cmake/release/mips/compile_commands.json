@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/release/mips",
+  "command": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=mipsel-none-linux-android --gcc-toolchain=/home/sam/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r14b/platforms/android-23/arch-mips  -Dnative_lib_EXPORTS -I/home/sam/Downloads/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -lGLESv2 -std=gnu++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /home/sam/AndroidOpenCVCamera/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/sam/AndroidOpenCVCamera/app/src/main/cpp/native-lib.cpp"
+}
+]

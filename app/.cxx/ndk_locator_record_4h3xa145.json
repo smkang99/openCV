@@ -1,0 +1,11 @@
+{
+  "ndk": "/home/sam/android-ndk-r13b",
+  "revision": {
+    "mMajor": 13,
+    "mMinor": 1,
+    "mMicro": 3345770,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

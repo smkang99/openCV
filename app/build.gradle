@@ -26,6 +26,11 @@ android {
             path "CMakeLists.txt"
         }
     }
+
+    packagingOptions {
+        pickFirst '**/*.so'
+    }
+
 }
 
 dependencies {

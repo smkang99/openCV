@@ -92,6 +92,10 @@ so manually move them:
 * javadoc/org/opencv/dnn/package-frame.html
 * javadoc/org/opencv/dnn/package-summary.html
 * javadoc/org/opencv/dnn/package-tree.html
+* javadoc/org/opencv/engine/
+* javadoc/org/opencv/engine/package-frame.html
+* javadoc/org/opencv/engine/package-summary.html
+* javadoc/org/opencv/engine/package-tree.html
 * javadoc/org/opencv/features2d/
 * javadoc/org/opencv/features2d/AKAZE.html
 * javadoc/org/opencv/features2d/AgastFeatureDetector.html

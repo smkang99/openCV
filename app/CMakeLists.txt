@@ -1,6 +1,6 @@
 # Path definitions
-set(pathToProject /Users/jonathanreynolds/Documents/Projects/AndroidOpenCVCamera)
-set(pathToOpenCv /Users/jonathanreynolds/Documents/Projects/OpenCV-android-sdk)
+set(pathToProject /home/sam/AndroidOpenCVCamera)
+set(pathToOpenCv /home/sam/Downloads/OpenCV-android-sdk)
 
 cmake_minimum_required(VERSION 3.4.1)
 

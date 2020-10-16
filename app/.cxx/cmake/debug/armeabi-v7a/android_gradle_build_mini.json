@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/home/sam/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/home/sam/AndroidOpenCVCamera/app/CMakeLists.txt",
+    "/home/sam/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/sam/AndroidOpenCVCamera/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/sam/AndroidOpenCVCamera/app/src/main/jniLibs/armeabi-v7a/libopencv_java3.so"
+      ]
+    }
+  }
+}

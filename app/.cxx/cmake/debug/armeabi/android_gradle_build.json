@@ -1,0 +1,50 @@
+{
+  "stringTable": {
+    "0": "/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi",
+    "1": "--target=armv5te-none-linux-androideabi --gcc-toolchain=/home/sam/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r14b/platforms/android-23/arch-arm -Dnative_lib_EXPORTS -I/home/sam/Downloads/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -lGLESv2 -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/sam/android-ndk-r14b/build/cmake/android.toolchain.cmake",
+    "/home/sam/AndroidOpenCVCamera/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi\" clean"
+  ],
+  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi": {
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/armeabi\" native-lib",
+      "buildType": "debug",
+      "toolchain": "450426560",
+      "abi": "armeabi",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/sam/AndroidOpenCVCamera/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/home/sam/AndroidOpenCVCamera/app/src/main/cpp/common.hpp",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/sam/AndroidOpenCVCamera/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/sam/AndroidOpenCVCamera/app/src/main/jniLibs/armeabi/libopencv_java3.so",
+        "/home/sam/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "450426560": {
+      "cppCompilerExecutable": "/home/sam/android-ndk-r14b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

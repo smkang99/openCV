@@ -1,0 +1,4 @@
+ninja: Entering directory `/home/sam/AndroidOpenCVCamera/app/.cxx/cmake/debug/x86'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+clang++: warning: -lGLESv2: 'linker' input unused [-Wunused-command-line-argument]
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so
