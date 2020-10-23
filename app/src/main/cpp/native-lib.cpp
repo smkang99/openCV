@@ -10,6 +10,7 @@
 #include <iterator>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/ocl.hpp>
+//#include <opencv2/ocl/ocl.hpp>
 #include <GLES2/gl2.h>
 #include <CL/cl.hpp>
 #include "common.hpp"
@@ -69,13 +70,14 @@ Java_net_jonreynolds_androidopencvcamera_MyGLSurfaceView_processFrame(JNIEnv *en
     //cvtColor(m, m, CV_GRAY2BGRA);
     LOGD("*** OpenCL info ***");
 
-#if 0
+    ocl::setUseOpenCL(true);
+
     if (!ocl::haveOpenCL())
     {
         LOGD("OpenCL is not available...");
-        return;
+        //return;
     }
-
+#if 0
     ocl::Context context;
     if (!context.create(ocl::Device::TYPE_GPU))
     {

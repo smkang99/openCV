@@ -7,9 +7,11 @@ cmake_minimum_required(VERSION 3.4.1)
 # Make sure we use flags for OpenGL in cpp
 set(CMAKE_VERBOSE_MAKEFILE on)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
-
+set(CMAKE_WITH_OPENCL on)
 # OpenCV includes
 include_directories(${pathToOpenCv}/sdk/native/jni/include)
+include_directories(src/main/cpp/OpenCL)
+link_directories(src/main/cpp/OpenCL/lib64)
 
 #Added by IDE on project create
 set(CPP_ROOT src/main/cpp)
